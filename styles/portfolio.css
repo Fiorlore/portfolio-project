@@ -46,8 +46,6 @@ p {
 .paragraph {
     max-width: 700px;
     margin: 0 auto;
- 
-    
 }
 
 .button-outline {
@@ -60,5 +58,10 @@ p {
     h1, h3 {
         font-size: 44px;
     }
+}
+
+.footnote {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
