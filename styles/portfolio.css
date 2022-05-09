@@ -54,6 +54,29 @@ p {
     padding: 13px 30px;
 }
 
+.about-section {
+    margin-top: 100px;
+}
+
+.hero-about h1 {
+    font-size: 48px;
+    font-family: var(--heading-font);
+}
+
+.hero-about p {
+    font-size: 18px;
+    text-align:justify;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.pic {
+    border-radius: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
 @media (max-width: 900px) {
     h1, h3 {
         font-size: 44px;
