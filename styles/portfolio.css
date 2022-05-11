@@ -89,6 +89,17 @@ p {
     opacity: 0.8;
 }
 
+.contact {
+    background-color: var(--background-color);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.contact h3 {
+    font-family: var(--default-font);
+    font-size: 28px;
+}
+
 
 @media (max-width: 900px) {
     h1, h3 {
