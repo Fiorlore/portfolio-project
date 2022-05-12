@@ -100,10 +100,71 @@ p {
     font-size: 28px;
 }
 
+footer .contact-box {
+    background-color: var(--background-color);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px 200px;
+}
+
+footer h4 {
+    font-size: 28px;
+    font-weight: bold;;
+    font-family: var(--default-font);
+}
+
+
+.email-container {
+    margin-bottom: 32px;
+}
+
+.email-link {
+    font-size: 24px;
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+   
+}
+
+.email-link:hover {
+    color: var(--main-color);
+}
+
+ footer .social-links a {
+    font-size: 30px;
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+    background-color: var(--background-color);
+    margin: 0 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    
+    transition: all 0.25s ease-in-out;
+}
+
+
+.social-links a:hover{
+    color: white;
+    background-color: var(--main-color);
+}
+
+footer {
+    margin: 60px 0;
+}
+
+.social-links a {
+    margin: 20px 0;
+}
+
 
 @media (max-width: 900px) {
     h1, h3 {
         font-size: 44px;
+    }
+
+    .contactme-button {
+        text-align: center;
     }
 }
 
