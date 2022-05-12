@@ -104,7 +104,8 @@ footer .contact-box {
     background-color: var(--background-color);
     padding: 30px;
     border-radius: 10px;
-    margin: 40px 200px;
+    margin: 40px 50px;
+    
 }
 
 footer h4 {
